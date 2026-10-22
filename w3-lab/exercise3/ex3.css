@@ -1,0 +1,16 @@
+.btn{
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size:60px;
+    background:rgb(237, 12, 237);
+    border: 10px solid purple;
+    border-radius: 50px;
+    padding: 20px 90px;
+}
+.btn:hover{
+    background: rgba(97, 2, 97, 0.852);
+    border:10px solid rgb(56, 0, 56);
+    cursor: pointer;
+}
+

@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: grey;
+}
+.cover-all{
+    margin: 10px 100px;
+}
+.box{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.btn{
+    background: blue;
+    padding: 10px;
+    border-radius: 30px;
+    border-style: none;
+}
+.first-button{
+    color: white;
+    background-color: rgb(31, 202, 202);
+}
+.second-button{
+    color: black;
+    background: yellow;
+}
+.second-button:hover{
+    cursor: pointer;
+}
+.third-button{
+    color: white;
+    background: purple;
+}
