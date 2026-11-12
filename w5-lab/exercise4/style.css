@@ -1,0 +1,58 @@
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin: 0;
+}
+html{
+  font-size: 10px;
+}
+body{
+  background: rgb(220, 218, 218);
+}
+.container{
+  display: grid;
+  grid-template-columns: auto 1fr;
+
+}
+.navbar{
+  background: white;
+  margin: 0;
+  padding: 15px;
+}
+.menu p{
+  padding-top: 10px;
+  
+}
+.main-content{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  margin: 10px;
+}
+.stats{
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 10px;
+
+}
+.stats-box{
+  background: white;
+  padding:10px;
+  border-radius: 10px;
+}
+.below-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.courses-scores{
+  background: white;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.deadlines{
+  margin-top: 10px;
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+}
